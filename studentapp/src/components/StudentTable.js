@@ -1,4 +1,4 @@
-import '..assets/css/compo.css'
+import '../assets/css/compo.css';
 export default function StudentTable(props)
 {
     return(
