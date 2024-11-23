@@ -3,8 +3,10 @@ export default function Profile(props){
         <>
             <table>
                 <tr>
-                    <td rowSpan={7}> <img src={require('../assets/img/1.jpg')} alt="profile picture" /></td>
-                    <td>ID {}</td>
+                    <td rowSpan={7}> 
+                        <img className='profile' src={require('../assets/img/1.jpg')} alt="profile picture" />
+                    </td>
+                    <td>ID {props.stu.studentId}</td>
                 </tr>
             </table>
         </>
