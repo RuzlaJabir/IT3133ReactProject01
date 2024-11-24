@@ -6,7 +6,7 @@ export default function Profile(props){
                     <td rowSpan={7}> 
                         <img className='profile' src={require('../assets/img/'+props.stu.profilePic)} alt="profile picture" />
                     </td>
-                    <td>ID {props.stu.studentId}</td>
+                    <td>ID: {props.stu.studentId}</td>
                 </tr>
                 <tr>
                     <td>Full name:{props.stu.firstName + " "+props.stu.lastName}</td>
@@ -15,7 +15,7 @@ export default function Profile(props){
                     <td>Age:{props.stu.age}</td>
                 </tr>
                 <tr>
-                    <td>Age:{props.stu.course}</td>
+                    <td>Course:{props.stu.course}</td>
                 </tr>
                 <tr>
                     <td>Address:{props.stu.address.city+","+props.stu.address.country}</td>
